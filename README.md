@@ -6,7 +6,7 @@
 
 ## Student Email : ggurumurthy@mail.sfsu.edu
 
-### Note failure to completely fill out this README.md could cause you to recieve a  0 for your project until correctly done
+### Note failure to completely fill out this README.md could cause you to receive a 0 for your project until correctly done
 
 # Adding the JUnit 5 Jars to your project.
 
