@@ -8,29 +8,38 @@ public class Operand {
     /**
      * construct operand from string token.
      */
+    private int value;
     public Operand(String token) {
-
+        if(token != null)
+            value = Integer.parseInt(token);
     }
 
     /**
      * construct operand from integer
      */
     public Operand(int value) {
-
+            this.value = value;
     }
 
     /**
      * return value of operand
      */
     public int getValue() {
-        return 0;
+        return value;
     }
 
     /**
      * Check to see if given token is a valid
      * operand.
      */
-    public static boolean check(String token) {
-        return false;
+    public static boolean check(String token)
+    {
+        //iterate through token, check if all digits are valid digits, throw{ boolean res = Integer.parseInt(token);
+        try{Integer.parseInt(token);}
+        catch (NumberFormatException nfe)
+        {
+            return false;
+        }
+        return true;
     }
 }

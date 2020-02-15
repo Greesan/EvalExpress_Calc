@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>edu.csc413.calculator</OriginalElement>
+  <nodes>
+    <node x="0.0" y="789.0">edu.csc413.calculator.evaluator.Result</node>
+    <node x="0.0" y="0.0">edu.csc413.calculator.evaluator.EvaluatorUI</node>
+    <node x="795.0" y="669.0">edu.csc413.calculator.operators.AddOperator</node>
+    <node x="1094.0" y="789.0">edu.csc413.calculator.exceptions.InvalidTokenException</node>
+    <node x="885.0" y="789.0">edu.csc413.calculator.evaluator.Operand</node>
+    <node x="1325.0" y="669.0">edu.csc413.calculator.operators.DivideOperator</node>
+    <node x="288.0" y="789.0">edu.csc413.calculator.evaluator.Evaluator</node>
+    <node x="265.0" y="669.0">edu.csc413.calculator.operators.SubtractOperator</node>
+    <node x="658.0" y="448.0">edu.csc413.calculator.operators.Operator</node>
+    <node x="530.0" y="669.0">edu.csc413.calculator.operators.MultiplyOperator</node>
+    <node x="574.0" y="789.0">edu.csc413.calculator.evaluator.EvaluatorDriver</node>
+    <node x="1060.0" y="669.0">edu.csc413.calculator.operators.PowerOperator</node>
+    <node x="0.0" y="669.0">edu.csc413.calculator.operators.ParenthesisOperator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="edu.csc413.calculator.operators.DivideOperator" target="edu.csc413.calculator.operators.Operator">
+      <point x="0.0" y="-37.5" />
+      <point x="1447.5" y="629.0" />
+      <point x="890.8333333333334" y="629.0" />
+      <point x="105.83333333333337" y="80.5" />
+    </edge>
+    <edge source="edu.csc413.calculator.operators.AddOperator" target="edu.csc413.calculator.operators.Operator">
+      <point x="0.0" y="-37.5" />
+      <point x="917.5" y="649.0" />
+      <point x="806.1666666666666" y="649.0" />
+      <point x="21.16666666666663" y="80.5" />
+    </edge>
+    <edge source="edu.csc413.calculator.operators.MultiplyOperator" target="edu.csc413.calculator.operators.Operator">
+      <point x="0.0" y="-37.5" />
+      <point x="652.5" y="649.0" />
+      <point x="763.8333333333334" y="649.0" />
+      <point x="-21.16666666666663" y="80.5" />
+    </edge>
+    <edge source="edu.csc413.calculator.operators.ParenthesisOperator" target="edu.csc413.calculator.operators.Operator">
+      <point x="0.0" y="-37.5" />
+      <point x="122.5" y="629.0" />
+      <point x="679.1666666666666" y="629.0" />
+      <point x="-105.83333333333337" y="80.5" />
+    </edge>
+    <edge source="edu.csc413.calculator.operators.PowerOperator" target="edu.csc413.calculator.operators.Operator">
+      <point x="0.0" y="-37.5" />
+      <point x="1182.5" y="639.0" />
+      <point x="848.5" y="639.0" />
+      <point x="63.5" y="80.5" />
+    </edge>
+    <edge source="edu.csc413.calculator.operators.SubtractOperator" target="edu.csc413.calculator.operators.Operator">
+      <point x="0.0" y="-37.5" />
+      <point x="387.5" y="639.0" />
+      <point x="721.5" y="639.0" />
+      <point x="-63.5" y="80.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6288162828066417" x="646.5" y="743.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
